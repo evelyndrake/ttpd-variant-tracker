@@ -16,22 +16,34 @@
 </head>
 
 <body>
-
 	<div class="jumbotron jumbotron-fluid" style="background-color: white;">
 		<div class="container">
 			<h2 class="display-4">There are currently <b id="varNum">...</b> variants of <i>The Tortured Poets Department</i>.</h2>
 			<br>
+			<br>
+			<table class="table table-striped" id="varTable">
+				<thead class = "thead-light">
+					<tr>
+						<th>#</th>
+						<th>Image</th>
+						<th>Title</th>
+						<th>Format</th>
+						<th>Year</th>
+						<th>Label</th>
+						<th>Country</th>
+					</tr>
+				</thead>
+				<tbody id="varTableBody">
+				</tbody>
+			</table>
 			<hr />
 			<div style="margin-top: 0%">
 				<h5 class="">Data from <a href="https://www.discogs.com/release/30486003-Taylor-Swift-The-Tortured-Poets-Department">Discogs</a></h5>
 				<h5 class="">Developed by <a href="https://github.com/evelyndrake/">Evelyn Drake</a></h5>
 			</div>
-			
 		</div>
 	</div>
 	<script src="/assets/api.js"></script>
-	
-
 </body>
 
 </html>
