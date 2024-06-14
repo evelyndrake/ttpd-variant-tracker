@@ -1,6 +1,5 @@
 # TTPD Variant Tracker
 Tracks the total number of different versions of Taylor Swift's *The Tortured Poets Department*.
-
 Data sourced from [Discogs.com](https://www.discogs.com/release/30486003-Taylor-Swift-The-Tortured-Poets-Department)
 ## Setup instructions
 - Clone this repository somewhere
