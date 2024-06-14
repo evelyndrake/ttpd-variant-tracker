@@ -1,0 +1,29 @@
+{
+  "name": "ts-variant-tracker",
+  "version": "1.0.1",
+  "description": "This is a simple boilerplate for integrating bootstrap with node",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "disconnect": "^1.2.2",
+    "dotenv": "^16.4.5",
+    "express": "latest",
+    "mysql": "latest",
+    "nodemon": "^3.1.3",
+    "path": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themaruf/nodeJS-Bootstrap-Express-boilerplate.git"
+  },
+  "author": "themaruf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themaruf/nodeJS-Bootstrap-Express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/themaruf/nodeJS-Bootstrap-Express-boilerplate#readme"
+}
