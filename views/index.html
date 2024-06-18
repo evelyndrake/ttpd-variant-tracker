@@ -8,7 +8,6 @@
 	<title>TTPD Variant Tracker</title>
 	<link rel="stylesheet" type="text/css" href="/assets/style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/js/bootstrap.min.js">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,25 +20,27 @@
 			<h2 class="display-4">There are currently <b id="varNum">...</b> variants of <i>The Tortured Poets Department</i>.</h2>
 			<br>
 			<br>
-			<table class="table table-striped" id="varTable">
-				<thead class = "thead-light">
-					<tr>
-						<th>#</th>
-						<th>Image</th>
-						<th>Title</th>
-						<th>Format</th>
-						<th>Year</th>
-						<th>Label</th>
-						<th>Country</th>
-					</tr>
-				</thead>
-				<tbody id="varTableBody">
-				</tbody>
-			</table>
+			<div class="table-responsive">
+				<table class="table table-striped" id="varTable" style="width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+					<thead class = "thead-light">
+						<tr>
+							<th>#</th>
+							<th>Image</th>
+							<th>Title</th>
+							<th>Format</th>
+							<th>Catalog Number</th>
+							<th>Country</th>
+						</tr>
+					</thead>
+					<tbody id="varTableBody">
+					</tbody>
+				</table>
+			</div>
 			<hr />
 			<div style="margin-top: 0%">
 				<h5 class="">Data from <a href="https://www.discogs.com/release/30486003-Taylor-Swift-The-Tortured-Poets-Department">Discogs</a></h5>
 				<h5 class="">Developed by <a href="https://github.com/evelyndrake/">Evelyn Drake</a></h5>
+				<p>The number of variants is pulled from Discogs, a site that catalogs commercial music releases, without human intervention. These releases are unique in format and have distinct catalog numbers as designated by the Republic Records (note that the online/electronic releases are distinct but are not given catalog numbers). The number includes all online and physical releases of <i>The Tortured Poet's Department</i> in various countries. Theoretically, a collector could own, both physically and electronically, all of these unique versions of the album.</p>
 			</div>
 		</div>
 	</div>

@@ -40,8 +40,7 @@ fetch('/allvariants') // Fetch the array of variants from the server
             titleCell.appendChild(link);
             // Add the rest of the cells
             row.insertCell().textContent = varFormats
-            row.insertCell().textContent = variant.released;
-            row.insertCell().textContent = variant.label;
+            row.insertCell().textContent = variant.catno;
             row.insertCell().textContent = variant.country;
         });
         document.getElementById('varTable').style.display = 'table';
